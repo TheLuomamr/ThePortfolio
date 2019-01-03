@@ -1,6 +1,6 @@
 .nav-link{
     color: black;
-    animation: fadeIn 4s;
+    animation: fadeIn 5s;
 }
 .nav{
     background-color: transparent;
@@ -20,14 +20,14 @@ h1{
     font-size: 125px;
     letter-spacing: 5px;
     font-family: 'Cormorant SC', serif;
-    animation: fadeIn 4s;
+    animation: fadeIn 5s;
     margin-top: 50px;
 }
 h2{
     letter-spacing: 3px;
 }
 #jobs{
-    animation: fadeIn 4s;
+    animation: fadeIn 5s;
 }
 #me{
     height: 350px;
