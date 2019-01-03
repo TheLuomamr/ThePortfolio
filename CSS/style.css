@@ -1,0 +1,115 @@
+.nav-link{
+    color: black;
+    animation: fadeIn 4s;
+}
+.nav{
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Thasadith', sans-serif;
+}
+.container-fluid{
+    background-image: url("../images/Trees_1400x900.png");
+    background-size: cover;
+    font-family: 'Thasadith', sans-serif;
+    height: 725px;
+}
+#name{
+    background-color: tan
+}
+h1{
+    font-size: 125px;
+    letter-spacing: 5px;
+    font-family: 'Cormorant SC', serif;
+    animation: fadeIn 4s;
+    margin-top: 50px;
+}
+h2{
+    letter-spacing: 3px;
+}
+#jobs{
+    animation: fadeIn 4s;
+}
+#me{
+    height: 350px;
+    width: 350px;
+    border-radius: 105px;
+    position: absolute;
+    border:rgb(212, 235, 223) 4px solid;
+    float: left;
+    z-index: 2;
+    position: absolute;
+}
+#info{
+    font-size: 50px;
+    margin-top: 2px;
+    text-align: center;
+}
+p, h5{
+    font-family: 'Thasadith', sans-serif;
+    line-height: 0.8cm;
+    word-spacing: 1.5px;
+}
+#backdrop{
+    height: 350px;
+    width: 350px;
+    border-radius: 105px;
+    border: solid rgb(196, 230, 212) 15px;
+    position: absolute;
+    margin-top: 50px;
+}
+body{
+    background-color: rgb(247, 247, 247)
+}
+h2{
+    font-family: 'Cormorant SC', serif;
+}
+.btn{
+    font-family: 'Thasadith', sans-serif;
+    background-color:  rgb(196, 230, 212);
+    color: black;
+    border: black solid 1px;
+}
+h3,h4{
+    font-family: 'Cormorant SC', serif;
+}
+.card-img-top{
+    height: 275px;
+}
+.card{
+    border: solid black 1px;
+    box-shadow: rgb(227, 227, 240) 5px 5px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card-body{
+    text-align: center;
+}
+label{
+    font-family: 'Thasadith', sans-serif;
+}
+hr{
+    border: solid 1px rgb(165, 165, 165);
+}
+#msg{
+    float:right;
+}
+#contact{
+    background-color: rgb(230, 230, 230);
+    border-radius: 15px;  
+}
+#bottom{
+    background-color: rgb(196, 230, 212);
+    width: 100%;
+    height: 75px;
+    border-top:rgb(165, 165, 165) solid 1px;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
