@@ -33,7 +33,7 @@
   });
   database.ref().on("child_added", function(childSnapshot){
     console.log(childSnapshot.val());
-    var name = childSnapshot.val().newName;
-    var email = childSnapshot.val().newEmail;
-    var msg = childSnapshot.val().newMsg;
+    let name = childSnapshot.val().newName;
+    let email = childSnapshot.val().newEmail;
+    let msg = childSnapshot.val().newMsg;
   });
