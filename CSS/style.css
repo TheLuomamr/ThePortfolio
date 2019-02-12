@@ -117,6 +117,14 @@ hr{
     height: 25px;
     width:25px;
 }
+form{
+    font-family: 'Thasadith', sans-serif;
+
+}
+#textArea1{
+    font-family: 'Thasadith', sans-serif;
+
+}
 
 @keyframes fadeIn {
     from{
