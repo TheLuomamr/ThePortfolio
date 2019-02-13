@@ -102,6 +102,7 @@ hr{
 #contact{
     background-color: rgb(230, 230, 230);
     border-radius: 15px;  
+    width: 75%;
 }
 #bottom{
     background-color: rgb(196, 230, 212);
@@ -119,11 +120,25 @@ hr{
 }
 form{
     font-family: 'Thasadith', sans-serif;
+    height: 200px;
+    margin-top: 15px;
 
 }
-#textArea1{
+input{
+    border: black solid 1px;
+    width: 198px;
+    border-radius: 2px;
+}
+textarea{
     font-family: 'Thasadith', sans-serif;
-
+    margin-top: 25px;
+    width: 400px;
+    height: 100px;
+    border: black solid 1px;
+    border-radius: 2px;
+}
+button{
+    background-color: rgb(212, 235, 223)
 }
 
 @keyframes fadeIn {
