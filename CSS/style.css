@@ -33,11 +33,10 @@ h2{
     height: 350px;
     width: 350px;
     border-radius: 105px;
-    position: absolute;
+    position: relative;
     border:rgb(212, 235, 223) 4px solid;
-    float: left;
-    z-index: 2;
-    position: absolute;
+    margin-left: 40px;
+    
 }
 #info{
     font-size: 50px;
@@ -149,3 +148,6 @@ button{
         opacity: 1;
     }
 }
+
+/* @media only screen and (min-width: 1220px) {
+    /* tablets and desktop */
