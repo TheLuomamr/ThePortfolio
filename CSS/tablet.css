@@ -29,18 +29,17 @@ h1{
 }
 h2{
     letter-spacing: 3px;
-    font-family: 'Cormorant SC', serif;
 }
 #jobs{
     animation: fadeIn 5s;
 }
 #me{
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 275px;
     border-radius: 105px;
     position: relative;
-    border:rgb(212, 235, 223) 4px solid;
-    margin-left: 40px;
+    border:rgb(212, 235, 223) 8px solid;
+    margin-left: 0px;
     
 }
 #info{
@@ -53,14 +52,14 @@ p, h5{
     line-height: 0.8cm;
     word-spacing: 1.5px;
 }
-#backdrop{
-    height: 350px;
-    width: 350px;
+/* #backdrop{
+    height: 250px;
+    width: 250px;
     border-radius: 105px;
     border: solid rgb(196, 230, 212) 15px;
     position: absolute;
     margin-top: 50px;
-}
+} */
 body{
     background-color: rgb(247, 247, 247)
 }
@@ -70,7 +69,7 @@ body{
     color: black;
     border: black solid 1px;
 }
-h3,h4{
+h2,h3,h4{
     font-family: 'Cormorant SC', serif;
 }
 .card-img-top{
@@ -79,7 +78,7 @@ h3,h4{
 .card{
     border: solid black 1px;
     box-shadow: rgb(227, 227, 240) 5px 5px;
-    width: 20rem;
+    width: 14rem;
 }
 .card:hover{
     transform: scale(1.05);
@@ -88,7 +87,7 @@ h3,h4{
     text-align: center;
 }
 #cards2{
-    width: 23rem;
+    width: 20rem;
 }
 label{
     font-family: 'Thasadith', sans-serif;
@@ -125,7 +124,7 @@ hr{
 }
 form{
     font-family: 'Thasadith', sans-serif;
-    height: 200px;
+    height: 250px;
     margin-top: 15px;
 
 }
@@ -146,7 +145,11 @@ button{
     background-color: rgb(212, 235, 223)
 }
 #hideThis{
-    display: none;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Cormorant SC', serif;
+    color: rgb(174, 230, 201)
 }
 @keyframes fadeIn {
     from{

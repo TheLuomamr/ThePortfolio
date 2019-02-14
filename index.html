@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="CSS/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="CSS/laptop.css">
+    <link rel="stylesheet" media="screen and (min-width: 770px) and (max-width: 991px)" href="CSS/tablet.css">
+    <link rel="stylesheet" media="screen and (min-width: 400px) and (max-width: 770px)" href="CSS/phone.css">
     <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Thasadith:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+SC" rel="stylesheet">
@@ -17,7 +20,7 @@
 <!---Name, title, links to parts of page-->
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-12 text-center mt-5 pt-5">
+        <div class="col-md-12 text-center" id="headingAdjust">
             <h1>Mark R. Luoma</h1>
         </div>
     </div>
@@ -47,9 +50,11 @@
 <!-----About Me w/resume link-->
 <div class="container mt-5 mb-5 pt-5 pb-5">
     <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-5" id=myImage>
             <div id="backdrop" ></div>
             <img id="me" src="images/photo.jpg">
+            <h2 id="hideThis">"You can't trust code that you did not totally create yourself."</h2>
+            <h3 id="hideThis">- Ken Thompson</h3>
         </div>
         <div class="col-md-7">
             <h1 id="info">About <u>Me</h1></u>
@@ -78,7 +83,7 @@
 </div>
 <div class="container mt-5">
     <div class="row justify-content-center">
-        <div class="card" style="width: 20rem;">
+        <div class="card" >
             <div class="card-body">
                <u><h3>Developer</h3></u>
                <p style="text-align: left">
@@ -91,7 +96,7 @@
                <hr>
             </div>
         </div>
-        <div class="card ml-3" style="width: 20rem;">
+        <div class="card ml-3" >
             <div class="card-body">
                 <u><h3>Teacher</h3></u>
                 <p style="text-align: left"> 
@@ -104,7 +109,7 @@
                 <hr>
             </div>
         </div>
-        <div class="card ml-3" style="width: 20rem;">
+        <div class="card ml-3" >
             <div class="card-body">
                 <u><h3>Biologist</h3></u>
                 <p style="text-align: left"> 
@@ -127,7 +132,7 @@
         <h2>My <u>Projects</u></h2>
     </div>
     <div class="row justify-content-center mt-4">
-        <div class="card" style="width: 23rem;">
+        <div class="card" id="cards2">
             <img class="card-img-top" src="images/Screen Shot 2018-12-31 at 2.48.40 PM.png" alt="Card image cap">
             <div class="card-body">
                 <h4 class="card-title">Thyme To Eat</h4>
@@ -136,7 +141,7 @@
                 <a href="https://github.com/TheLuomamr/Group_Project_One" class="btn btn-info">Check The Code!</a>
             </div>
         </div>
-        <div class="card ml-2" style="width: 23rem;">
+        <div class="card ml-2" id="cards2">
             <img class="card-img-top" src="images/Screen Shot 2018-12-31 at 2.49.27 PM.png" alt="Card image cap">
             <div class="card-body">
                 <h4 class="card-title">Pyschic Game!</h4>
@@ -145,7 +150,7 @@
                 <a href="https://github.com/TheLuomamr/Pyschic-game.github.io" class="btn btn-info">Check The Code!</a>
             </div>
         </div>
-        <div class="card ml-2" style="width: 23rem;">
+        <div class="card ml-2" id="cards2">
             <img class="card-img-top" src="images/Screen Shot 2018-12-31 at 2.50.02 PM.png" alt="Card image cap">
             <div class="card-body">
                 <h4 class="card-title">The Office Trivia</h4>
