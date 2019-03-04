@@ -1,3 +1,3 @@
-Mark R. Luoma 
+# Mark R. Luoma 
 
-My Personal Portfolio 
+### My personal portfolio touching on who I am and what I do. 
