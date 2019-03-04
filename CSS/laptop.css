@@ -1,6 +1,6 @@
 .nav-link{
     color: black;
-    animation: fadeIn 5s;
+    animation: fadeIn 10s;
 }
 .nav{
     background-color: transparent;
@@ -29,10 +29,12 @@ h1{
 }
 h2{
     letter-spacing: 3px;
+    font-size: 40px;
     font-family: 'Cormorant SC', serif;
 }
+
 #jobs{
-    animation: fadeIn 5s;
+    animation: fadeIn 7s;
 }
 #me{
     height: 350px;
@@ -141,7 +143,9 @@ textarea{
     border-radius: 2px;
 }
 button{
-    background-color: rgb(212, 235, 223)
+    background-color: rgb(212, 235, 223);
+    border: black solid 1px;
+    border-radius: 2px;
 }
 #hideThis{
     display: none;

@@ -30,9 +30,10 @@ h1{
 h2{
     letter-spacing: 3px;
     font-family: 'Cormorant SC', serif;
+    font-size: 40px;
 }
 #jobs{
-    animation: fadeIn 5s;
+    animation: fadeIn 10s;
 }
 #me{
     height: 350px;
@@ -79,7 +80,7 @@ h3,h4{
 .card{
     border: solid black 1px;
     box-shadow: rgb(227, 227, 240) 5px 5px;
-    width: 20rem;
+    width: 25rem;
 }
 .card:hover{
     transform: scale(1.05);
@@ -156,4 +157,6 @@ button{
         opacity: 1;
     }
 }
+
+/*======================================Carousel====================================*/
 

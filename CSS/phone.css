@@ -1,6 +1,6 @@
 .nav-link{
     color: black;
-    animation: fadeIn 5s;
+    animation: fadeIn 10s;
 }
 .nav{
     background-color: transparent;
@@ -27,7 +27,7 @@ h2{
     letter-spacing: 3px;
 }
 #jobs{
-    animation: fadeIn 5s;
+    animation: fadeIn 7s;
 }
 #myImage{
     text-align: center;
