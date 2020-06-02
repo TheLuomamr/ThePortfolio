@@ -1,3 +1,3 @@
 # Mark R. Luoma 
 
-### I make pretty cool applications.
+### Original, old portfolio
